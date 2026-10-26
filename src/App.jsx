@@ -145,7 +145,7 @@ function App() {
 
           <article className="memory-card">
             <div className="photo-frame">
-              <img src="/images/memory-01.jpg" alt="A special moment together" />
+              <img src={`${import.meta.env.BASE_URL}images/memory-01.jpg`} alt="A special moment together" />
             </div>
             <div className="memory-info">
               <span>MEMORY_001</span>
@@ -155,7 +155,7 @@ function App() {
 
           <article className="memory-card">
             <div className="photo-frame">
-              <img src="/images/memory-02.jpg" alt="A beautiful moment together" />
+              <img src={`${import.meta.env.BASE_URL}images/memory-02.jpg`} alt="A beautiful moment together" />
             </div>
             <div className="memory-info">
               <span>MEMORY_002</span>
@@ -165,7 +165,7 @@ function App() {
 
           <article className="memory-card">
             <div className="photo-frame">
-              <img src="/images/memory-03.jpg" alt="A happy memory together" />
+              <img src={`${import.meta.env.BASE_URL}images/memory-03.jpg`} alt="A happy memory together" />
             </div>
             <div className="memory-info">
               <span>MEMORY_003</span>
