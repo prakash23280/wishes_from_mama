@@ -4,5 +4,5 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/wishes-from-mama/',
+  base: '/wishes_from_mama/',
 })
